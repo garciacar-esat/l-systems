@@ -1,0 +1,9 @@
+# Directories
+bin/
+build/
+
+# Files
+*.user
+*.exe
+*.sln
+
