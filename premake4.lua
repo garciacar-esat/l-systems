@@ -42,7 +42,7 @@ solution ("L_System_solution_" .. _ACTION)
 
     configuration "Debug"
         defines { "DEBUG" }
-		links { "./deps/lib/esat/ESAT_d", "opengl32",
+		links {"opengl32",
 		"user32","shell32","gdi32"}
         targetdir ("bin/Debug")
         targetsuffix "_d"
@@ -50,7 +50,7 @@ solution ("L_System_solution_" .. _ACTION)
         flags { "Symbols" }
 
     configuration "Release"
-		links { "./deps/lib/esat/ESAT", "opengl32",
+		links { "opengl32",
 		"user32","shell32","gdi32"}
         targetdir ("bin/Release")
         objdir ("build/" .. "Release")
