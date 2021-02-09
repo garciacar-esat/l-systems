@@ -3,7 +3,7 @@
 #include <iostream>
 
 int main(int argc, char** argv) {
-	LSystem l_system;
+	LSystem<char> l_system;
 
 
 	l_system.AddVariables({ 'c', 'a', 'b', 'b', 'x' });

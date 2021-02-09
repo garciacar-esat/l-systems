@@ -61,6 +61,5 @@ solution ("L_System_solution_" .. _ACTION)
 	project "PR0_Base"
 		files {
       "./tests/base.cpp",
-      "./src/LSystem.cpp",
       "./include/LSystem.h"
     }
